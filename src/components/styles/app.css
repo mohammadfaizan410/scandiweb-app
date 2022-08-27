@@ -1,0 +1,62 @@
+.app--nav {
+    display: flex;
+    align-items: center;
+  }
+
+  #cartOpen--app{
+    opacity: 0.2;
+  }
+  select {
+    border: none;
+  }
+  .cart {
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
+  }
+  span {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .count {
+    position: absolute;
+    top: 4%;
+    left: 93%;
+    font-weight: bold;
+  }
+  h3 {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #1d1f22;
+    padding: 15px;
+  }
+  
+  .selected {
+    color: #5ece7b;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 120%;
+    /* identical to box height, or 19px */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #5ece7b;
+  }
+
+  h3 > span {
+    text-transform: uppercase;
+  }
+
+
+

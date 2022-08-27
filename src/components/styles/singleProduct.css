@@ -1,0 +1,151 @@
+.singleProduct {
+    display: flex;
+    margin-top: 5%;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .gallery--image {
+    width: 160px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .main--picture {
+    width: 500px;
+    height: 559px;
+    object-fit: contain;
+    margin-left: 5%;
+  }
+  .details {
+    margin-left: 5%;
+  }
+  
+  .title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+  
+    color: #1d1f22;
+  }
+  
+  #selected {
+    border: 2px solid black;
+  }
+  
+  .attr--container {
+    display: flex;
+  }
+  
+  .text--attr {
+    width: 63px;
+    height: 63px;
+    margin-left: 5%;
+    margin-top: -2%;
+    border: 1px solid #1d1f22;
+    text-align: center;
+    line-height: 63px;
+    cursor: pointer;
+  }
+  
+  .color--attr {
+    width: 100px;
+    height: 60px;
+    left: 2px;
+    top: 2px;
+    margin-left: 5%;
+    margin-top: -2%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  h4 {
+    height: 18px;
+    left: 929px;
+    top: 273px;
+    font-family: "Roboto Condensed";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1d1f22;
+  }
+  
+  .addToCart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 32px;
+    width: 292px;
+    height: 52px;
+    background: #5ece7b;
+    margin-left: 5%;
+    cursor: pointer;
+  }
+  
+  .cart--add {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+.cart--outOfStock{
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+  .outOfStock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 32px;
+    width: 292px;
+    height: 52px;
+    background: #6c6d6c;
+    margin-left: 5%;
+  }
+  
+  p {
+    margin-left: 4.5%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 159.96%;
+    color: #1d1f22;
+  }
+  
+  #textAttrSelected {
+    background-color: black;
+    color: white;
+  }
+  
+  #colorAttrSelected {
+    border: 2px solid black;
+  }  
