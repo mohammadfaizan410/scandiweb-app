@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/scandiweb-app/static/css/main.8d32263e.css",
+    "main.js": "/scandiweb-app/static/js/main.1029ec43.js",
+    "index.html": "/scandiweb-app/index.html",
+    "main.8d32263e.css.map": "/scandiweb-app/static/css/main.8d32263e.css.map",
+    "main.1029ec43.js.map": "/scandiweb-app/static/js/main.1029ec43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d32263e.css",
+    "static/js/main.1029ec43.js"
+  ]
+}
